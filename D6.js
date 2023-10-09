@@ -313,7 +313,7 @@ console.log(sumYearFilm(movies));
 */
 
 const findFilmByID = (arr, id) => {
-  const filmObj = arr.find((element) => (element.imdbID = id));
+  const filmObj = arr.find((element) => element.imdbID === id);
   return filmObj;
 };
 
